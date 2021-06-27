@@ -1,0 +1,113 @@
+
+.container2{
+  display:flex;
+  direction: column;
+  justify-content: center;
+  width: 100%;
+  margin:0;
+  padding-top:15%;
+}
+
+
+.form-wrapper2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background: white;
+  border-radius:10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  justify-content: space-between;
+}
+
+.title2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-top: 2%;
+  text-align: left;
+  padding-bottom: 1%;
+  font-weight: bolder;
+  color:orange;
+}
+
+.sub-title-city-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.sub-title2{
+  font-size: 1.15em;
+  font-family: 'Ubuntu', sans-serif;
+  color:rgb(255, 166, 0);
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.city-name{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.15em;
+  color:black;
+  padding-left:8px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.temperature-wrapper{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature{
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  border-radius: 5px;
+  border:none;
+  background-color:rgba(255, 166, 0, 0.76);
+  color:white;
+  font-weight: bolder;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.feel-cold{
+  display: flex;
+  flex-direction: row;
+  width: 57%;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:rgb(81, 32, 121);
+  font-size: 30px;
+  padding-top: 2%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.feel-warm{
+  display: flex;
+  flex-direction: row;
+  width: 57%;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:orange;
+  font-size: 30px;
+  padding-top: 2%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+@media screen and (max-width: 1062px)
+{
+  .form-wrapper2{
+    min-width: 400px;
+    padding: 10px;
+  }
+}
