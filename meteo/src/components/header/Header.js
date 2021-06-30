@@ -7,8 +7,8 @@ export default function Header() {
 		<header>
 			<div className="header-wrapper">
 				<div className="container-headerLogo">
-					<a href="https://beetrip.pro/" className="btnLogo">
-						<img src="/cropped-Logo-BEETRIP-couleur-3.png" alt="logo icon" />
+					<a href="/" className="btnLogo">
+						<img src="/logo.png" alt="logo icon" />
 					</a>
 				</div>
 

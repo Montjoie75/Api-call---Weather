@@ -4,23 +4,23 @@
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-    background-color: white;
+    background-color: black;
     box-shadow: 10px 5px 10px rgba(182, 182, 182, 0.40);
     top:0;
     left:0;
-    width: 100%;    
+    width: 100%; 
+    padding-top:0.7%;   
+    padding-bottom:0.7%;   
   }
   
  .container-headerLogo {
     width: 14%;
-    padding-top:1%;
-    padding-bottom:0.7%;
     padding-left : 2%;
     padding-right: 2.5%;
   } 
 
   img{
-    width: 135px;
+    width: 200px;
   }
 
   .weather-nav{
@@ -28,13 +28,13 @@
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
     text-align:center;
     margin-right:3%;
   }
 
   .weather-nav:hover{
-    color:orange;
+    color:aqua;
   }
 
  

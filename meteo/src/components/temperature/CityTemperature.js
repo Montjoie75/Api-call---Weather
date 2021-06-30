@@ -24,7 +24,7 @@ export default function CityTemperature({ weatherData }) {
 								<span className="feel-cold">It is cold !</span>
 							)
 						) : (
-							<span className="feel-cold">Please retry</span>
+							<span className="retry">Please retry</span>
 						)}
 					</div>
 				</div>

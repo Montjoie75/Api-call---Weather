@@ -16,7 +16,7 @@
   background: white;
   border-radius:10px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   justify-content: space-between;
 }
 
@@ -27,7 +27,7 @@
   text-align: left;
   padding-bottom: 1%;
   font-weight: bolder;
-  color:orange;
+  color:rgb(7, 187, 187);
 }
 
 .sub-title-city-wrapper{
@@ -40,7 +40,7 @@
 .sub-title2{
   font-size: 1.15em;
   font-family: 'Ubuntu', sans-serif;
-  color:rgb(255, 166, 0);
+  color:rgb(7, 187, 187);
   padding-bottom: 20px;
   text-align: left;
 }
@@ -66,7 +66,7 @@
   font-size: 50px;
   border-radius: 5px;
   border:none;
-  background-color:rgba(255, 166, 0, 0.76);
+  background-color:rgb(7, 187, 187);
   color:white;
   font-weight: bolder;
   text-align: center;
@@ -81,7 +81,7 @@
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color:rgb(81, 32, 121);
+  color:rgb(12, 194, 12);
   font-size: 30px;
   padding-top: 2%;
   border-radius: 5px;
@@ -96,7 +96,23 @@
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color:orange;
+  color:rgb(255, 0, 76);
+  font-size: 30px;
+  padding-top: 2%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+.retry{
+  display: flex;
+  flex-direction: row;
+  width: 57%;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:rgb(7, 187, 187);
   font-size: 30px;
   padding-top: 2%;
   border-radius: 5px;
